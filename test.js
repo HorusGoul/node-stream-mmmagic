@@ -1,5 +1,5 @@
 const fs = require('fs');
-const magic = require('./');
+const magic = require('./').default;
 const stream = require('stream');
 const expect = require('chai').expect;
 const concat = require('concat-stream');
